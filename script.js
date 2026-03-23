@@ -1,6 +1,6 @@
 const weddingDetails = {
-  groomName: "Bharath Kumar",
-  brideName: "Moni",
+  groomName: "Parathvaj",
+  brideName: "Monisha",
   openingMessage:
     "With joyful hearts and the blessings of our families, we invite you to celebrate our wedding.",
   heroMessage:
