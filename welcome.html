@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome page for Bharath Kumar and Moni wedding invitation.">
+  <title>Bharath Kumar & Moni | Welcome</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="ambient ambient-rose"></div>
+    <div class="ambient ambient-cream"></div>
+    <div class="grain"></div>
+    <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+    <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container">
+        <nav class="topbar">
+          <a class="brand" href="index.html">B | M</a>
+          <div class="nav-links">
+            <a class="active" href="welcome.html">Welcome</a>
+            <a href="celebration.html">Celebration</a>
+            <a href="blessings.html">Blessings</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="container hero-section">
+        <div class="hero-grid hero-grid-wide">
+          <div class="hero-copy reveal">
+            <p class="mini-label">A New Chapter Begins</p>
+            <h1 class="hero-title" data-couple-html><span class="name-line">Bharath&nbsp;Kumar</span><span class="heart-line">&hearts;</span><span class="name-line">Moni</span></h1>
+            <p class="hero-copy-text" data-hero-message>
+              We invite you to celebrate our new beginning, wrapped in love, tradition, music, and the blessings of family.
+            </p>
+            <div class="hero-meta">
+              <span class="meta-chip" data-wedding-date-long>Sunday, 22 November 2026</span>
+              <span class="meta-chip" data-wedding-time>09:00 AM</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button button-primary" href="celebration.html">View Celebration</a>
+              <a class="button button-secondary" href="blessings.html">RSVP & Blessings</a>
+            </div>
+          </div>
+
+          <div class="hero-side reveal" id="heroTilt">
+            <article class="premium-card summary-card">
+              <p class="mini-label">Save The Date</p>
+              <h2 class="card-date" data-wedding-date-short>22 November 2026</h2>
+              <p class="card-place" data-venue-name>Your Wedding Venue</p>
+              <div class="line-divider"></div>
+              <ul class="summary-list" id="heroEventList"></ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="container countdown-section reveal">
+        <div class="section-heading">
+          <p class="mini-label">Countdown</p>
+          <h2>Every moment brings us closer to our forever.</h2>
+        </div>
+
+        <div class="countdown-grid">
+          <article class="premium-card count-card">
+            <span class="count-value" id="days">00</span>
+            <span class="count-label">Days</span>
+          </article>
+          <article class="premium-card count-card">
+            <span class="count-value" id="hours">00</span>
+            <span class="count-label">Hours</span>
+          </article>
+          <article class="premium-card count-card">
+            <span class="count-value" id="minutes">00</span>
+            <span class="count-label">Minutes</span>
+          </article>
+          <article class="premium-card count-card">
+            <span class="count-value" id="seconds">00</span>
+            <span class="count-label">Seconds</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="container reveal">
+        <div class="split-grid">
+          <article class="premium-card detail-card">
+            <p class="mini-label">Invitation Note</p>
+            <h3>An evening filled with warmth, grace, and celebration.</h3>
+            <p data-invitation-note>
+              Your presence will make our day brighter, warmer, and more meaningful. Join us for a celebration filled with grace, joy, and heartfelt moments.
+            </p>
+          </article>
+
+          <article class="premium-card detail-card accent-card">
+            <p class="mini-label">Wedding Venue</p>
+            <h3 data-venue-name>Your Dream Wedding Venue</h3>
+            <p data-venue-address>Add your full venue address here, along with city and state.</p>
+            <a class="text-link" data-map-link href="https://maps.google.com" target="_blank" rel="noreferrer">Open Location</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>With love, <span data-couple-text>Bharath Kumar & Moni</span></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
