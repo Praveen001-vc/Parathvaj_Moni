@@ -1,4 +1,4 @@
-# Bharath Kumar & Moni Wedding Invitation
+# Parathvaj & Moni Wedding Invitation
 
 This project is a premium multi-page static wedding invitation designed for free GitHub Pages hosting.
 
