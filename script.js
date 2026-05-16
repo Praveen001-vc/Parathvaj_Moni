@@ -1,43 +1,44 @@
 const weddingDetails = {
-  groomName: "Parathvaj",
-  brideName: "Monisha",
+  groomName: "P. Parathvaj",
+  brideName: "S. Monisha",
   openingMessage:
-    "With joyful hearts and the blessings of our families, we invite you to celebrate our wedding.",
+    "With the blessings of our parents and elders, we warmly invite you to celebrate our wedding ceremony.",
   heroMessage:
-    "We invite you to celebrate our new beginning, wrapped in love, tradition, music, and the blessings of family.",
+    "Please join us on Thursday, 28 May 2026, and bless us as we begin our new life together.",
   invitationNote:
-    "Your presence will make our day brighter, warmer, and more meaningful. Join us for a celebration filled with grace, joy, and heartfelt moments.",
+    "Your presence and blessings will make this day truly memorable for our families. We look forward to celebrating with you.",
   closingNote:
-    "We would be honoured to celebrate this special day in your presence. Your love and blessings mean the world to us.",
+    "We would be honoured by your gracious presence at our wedding and invite you with affection and respect.",
   ambienceNote:
-    "The celebration blends timeless rituals with a soft romantic setting, creating an elegant and intimate experience for every guest.",
+    "The day includes traditional rituals, family blessings, and a warm gathering with loved ones.",
   footerMessage:
-    "Kindly RSVP with your name and number of guests. Update the contact link in this file to connect it to your WhatsApp or any RSVP page.",
-  weddingDate: "2026-05-28T09:00:00+05:30",
-  venueName: "Your Dream Wedding Venue",
-  venueAddress: "Add your full venue address here, along with city and state.",
-  mapUrl: "https://maps.google.com",
+    "Kindly RSVP with your name and number of guests. Contact family at +91 98653 31456 / +91 98652 87551.",
+  weddingDate: "2026-05-28T04:30:00+05:30",
+  venueName: "Sakthi mahal (AC and Non-AC)",
+  venueAddress: "Salem, Tamil Nadu",
+  mapUrl:
+    "https://maps.app.goo.gl/HYjdV6SkisN9xQ6q7",
   rsvpUrl:
-    "https://wa.me/919999999999?text=We%20are%20happy%20to%20join%20your%20wedding%20celebration",
+    "https://wa.me/919865331456?text=Vanakkam%2C%20we%20are%20happy%20to%20attend%20your%20wedding%20and%20offer%20our%20blessings.",
   events: [
     {
-      name: "Wedding Ceremony",
-      time: "09:00 AM",
+      name: "Wedding Cermony",
+      time: "04:30 AM - 05:30 AM",
       description:
-        "Witness our sacred vows, family blessings, and the beautiful beginning of our forever."
+        "Sacred wedding rituals and tying of the mangalsutra in the auspicious Wedding ."
     },
     {
-      name: "Reception",
-      time: "07:00 PM",
+      name: "Reception & Lunch",
+      time: "07:00 AM - 10:00 AM",
       description:
-        "Celebrate with us through music, heartfelt conversations, and an elegant evening ambience."
+        "Family blessings, formal wedding rites, and traditional celebrations."
     },
-    {
-      name: "Dinner",
-      time: "08:30 PM",
-      description:
-        "Join us for a memorable dinner prepared with warmth and care for all our loved ones."
-    }
+    // {
+    //   name: "Reception & Lunch",
+    //   time: "After Ceremony",
+    //   description:
+    //     "Please join us for felicitations, greetings, and wedding feast with our families."
+    // }
   ]
 };
 
@@ -81,7 +82,7 @@ function setLink(selector, value) {
 }
 
 function populateSite() {
-  const coupleText = `${weddingDetails.groomName} ♥ ${weddingDetails.brideName}`;
+  const coupleText = `${weddingDetails.groomName} & ${weddingDetails.brideName}`;
   const groomHtml = weddingDetails.groomName.replace(/\s+/g, "&nbsp;");
   const brideHtml = weddingDetails.brideName.replace(/\s+/g, "&nbsp;");
   const coupleHtml = `<span class="name-line">${groomHtml}</span><span class="heart-line">&hearts;</span><span class="name-line">${brideHtml}</span>`;
